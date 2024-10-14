@@ -1,0 +1,178 @@
+Cidades lidas: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51] (Total: 51)
+Lista de itens antes de criar o DataFrame: [{'item_id': 1, 'profit': 101.0, 'weight': 1.0, 'cidade': 2}, {'item_id': 2, 'profit': 202.0, 'weight': 2.0, 'cidade': 3}, {'item_id': 3, 'profit': 404.0, 'weight': 4.0, 'cidade': 4}, {'item_id': 4, 'profit': 202.0, 'weight': 2.0, 'cidade': 5}, {'item_id': 5, 'profit': 996.0, 'weight': 896.0, 'cidade': 6}, {'item_id': 6, 'profit': 1992.0, 'weight': 1792.0, 'cidade': 7}, {'item_id': 7, 'profit': 3984.0, 'weight': 3584.0, 'cidade': 8}, {'item_id': 8, 'profit': 467.0, 'weight': 367.0, 'cidade': 9}, {'item_id': 9, 'profit': 934.0, 'weight': 734.0, 'cidade': 10}, {'item_id': 10, 'profit': 1868.0, 'weight': 1468.0, 'cidade': 11}, {'item_id': 11, 'profit': 790.0, 'weight': 690.0, 'cidade': 12}, {'item_id': 12, 'profit': 790.0, 'weight': 690.0, 'cidade': 13}, {'item_id': 13, 'profit': 713.0, 'weight': 613.0, 'cidade': 14}, {'item_id': 14, 'profit': 1426.0, 'weight': 1226.0, 'cidade': 15}, {'item_id': 15, 'profit': 2852.0, 'weight': 2452.0, 'cidade': 16}, {'item_id': 16, 'profit': 974.0, 'weight': 874.0, 'cidade': 17}, {'item_id': 17, 'profit': 974.0, 'weight': 874.0, 'cidade': 18}, {'item_id': 18, 'profit': 222.0, 'weight': 122.0, 'cidade': 19}, {'item_id': 19, 'profit': 444.0, 'weight': 244.0, 'cidade': 20}, {'item_id': 20, 'profit': 888.0, 'weight': 488.0, 'cidade': 21}, {'item_id': 21, 'profit': 666.0, 'weight': 366.0, 'cidade': 22}, {'item_id': 22, 'profit': 586.0, 'weight': 486.0, 'cidade': 23}, {'item_id': 23, 'profit': 1172.0, 'weight': 972.0, 'cidade': 24}, {'item_id': 24, 'profit': 1172.0, 'weight': 972.0, 'cidade': 25}, {'item_id': 25, 'profit': 923.0, 'weight': 823.0, 'cidade': 26}, {'item_id': 26, 'profit': 923.0, 'weight': 823.0, 'cidade': 27}, {'item_id': 27, 'profit': 563.0, 'weight': 463.0, 'cidade': 28}, {'item_id': 28, 'profit': 1126.0, 'weight': 926.0, 'cidade': 29}, {'item_id': 29, 'profit': 563.0, 'weight': 463.0, 'cidade': 30}, {'item_id': 30, 'profit': 689.0, 'weight': 589.0, 'cidade': 31}, {'item_id': 31, 'profit': 1378.0, 'weight': 1178.0, 'cidade': 32}, {'item_id': 32, 'profit': 1378.0, 'weight': 1178.0, 'cidade': 33}, {'item_id': 33, 'profit': 425.0, 'weight': 325.0, 'cidade': 34}, {'item_id': 34, 'profit': 850.0, 'weight': 650.0, 'cidade': 35}, {'item_id': 35, 'profit': 1700.0, 'weight': 1300.0, 'cidade': 36}, {'item_id': 36, 'profit': 1275.0, 'weight': 975.0, 'cidade': 37}, {'item_id': 37, 'profit': 1100.0, 'weight': 1000.0, 'cidade': 38}, {'item_id': 38, 'profit': 2200.0, 'weight': 2000.0, 'cidade': 39}, {'item_id': 39, 'profit': 4400.0, 'weight': 4000.0, 'cidade': 40}, {'item_id': 40, 'profit': 876.0, 'weight': 776.0, 'cidade': 41}, {'item_id': 41, 'profit': 1752.0, 'weight': 1552.0, 'cidade': 42}, {'item_id': 42, 'profit': 2628.0, 'weight': 2328.0, 'cidade': 43}, {'item_id': 43, 'profit': 223.0, 'weight': 123.0, 'cidade': 44}, {'item_id': 44, 'profit': 456.0, 'weight': 356.0, 'cidade': 45}, {'item_id': 45, 'profit': 405.0, 'weight': 305.0, 'cidade': 46}, {'item_id': 46, 'profit': 810.0, 'weight': 610.0, 'cidade': 47}, {'item_id': 47, 'profit': 1620.0, 'weight': 1220.0, 'cidade': 48}, {'item_id': 48, 'profit': 405.0, 'weight': 305.0, 'cidade': 49}, {'item_id': 49, 'profit': 147.0, 'weight': 47.0, 'cidade': 50}, {'item_id': 50, 'profit': 294.0, 'weight': 94.0, 'cidade': 51}]
+Colunas de df_itens: ['item_id', 'profit', 'weight', 'cidade']
+Tipos de dados de df_itens:
+item_id      int64
+profit     float64
+weight     float64
+cidade       int64
+dtype: object
+Colunas após strip: ['item_id', 'profit', 'weight', 'cidade']
+Tipos de dados de df_itens após conversão:
+item_id      int64
+profit     float64
+weight     float64
+cidade       int32
+dtype: object
+Índice definido com sucesso.
+Itens lidos: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50] (Total: 50)
+Cidade 51 está presente em df_cidades.
+Distância entre 2 e 51: 21.02379604162864
+Distância entre 19 e 44: 17.11724276862369
+Coluna 'cidade' adicionada a df_cidades como sequência numérica.
+Coluna 'cidade' já existe em df_itens.
+Matriz de distâncias gerada automaticamente com CEIL_2D.
+Iniciando KPThen2TSPsSolver...
+Gurobi 11.0.3:Gurobi 11.0.3: optimal solution; objective 7124
+2 simplex iterations
+1 branching node
+Itens selecionados (KP): [1, 2, 3, 4, 18, 19, 20, 21, 34, 43, 44, 47, 48, 49, 50]
+Metade mais leve dos itens: [1, 2, 4, 3, 49, 50, 18]
+Metade mais pesada dos itens: [43, 19, 48, 44, 21, 20, 34, 47]
+Cidades para TSP 1 (Itens Leves + Cidades sem itens): [1, 2, 3, 5, 4, 50, 51, 19, 1, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 42, 43, 46, 47]
+Cidades para TSP 2 (Itens Pesados): [44, 20, 49, 45, 22, 21, 35, 48]
+Gurobi 11.0.3:Gurobi 11.0.3: optimal solution; objective 420
+19572 simplex iterations
+1231 branching nodes
+Rota 1 (Itens Leves + Cidades sem itens): [(1, 32), (32, 11), (11, 38), (38, 5), (5, 37), (37, 17), (17, 4), (4, 18), (18, 47), (47, 12), (12, 46), (46, 51), (51, 27), (27, 6), (6, 23), (23, 7), (7, 43), (43, 24), (24, 14), (14, 25), (25, 13), (13, 41), (41, 19), (19, 40), (40, 42), (42, 15), (15, 33), (33, 39), (39, 10), (10, 30), (30, 34), (34, 9), (9, 50), (50, 16), (16, 2), (2, 29), (29, 36), (36, 3), (3, 28), (28, 31), (31, 26), (26, 8)]
+Fim TSP1: 8
+Gurobi 11.0.3:Gurobi 11.0.3: optimal solution; objective 168
+76 simplex iterations
+1 branching node
+Rota 2 (Itens Pesados): [(8, 48), (48, 44), (44, 45), (45, 49), (49, 21), (21, 35), (35, 20), (20, 22), (22, 1)]
+Fim TSP2: 1
+Conectando a última cidade do TSP2 (1) à Cidade 1.
+Rota final unificada: [(1, 32), (32, 11), (11, 38), (38, 5), (5, 37), (37, 17), (17, 4), (4, 18), (18, 47), (47, 12), (12, 46), (46, 51), (51, 27), (27, 6), (6, 23), (23, 7), (7, 43), (43, 24), (24, 14), (14, 25), (25, 13), (13, 41), (41, 19), (19, 40), (40, 42), (42, 15), (15, 33), (33, 39), (39, 10), (10, 30), (30, 34), (34, 9), (9, 50), (50, 16), (16, 2), (2, 29), (29, 36), (36, 3), (3, 28), (28, 31), (31, 26), (26, 8), (8, 48), (48, 44), (44, 45), (45, 49), (49, 21), (21, 35), (35, 20), (20, 22), (22, 1), (1, 1)]
+Cidade 1 -> Cidade 32: Peso acumulado = 0, Velocidade = 1.00, Tempo = 7.00, Distância = 7
+Cidade 32 -> Cidade 11: Peso acumulado = 0, Velocidade = 1.00, Tempo = 7.00, Distância = 7
+Cidade 11 -> Cidade 38: Peso acumulado = 0, Velocidade = 1.00, Tempo = 7.00, Distância = 7
+Cidade 38 -> Cidade 5: Peso acumulado = 0, Velocidade = 1.00, Tempo = 8.00, Distância = 8
+Cidade 5 -> Cidade 37: Peso acumulado = 2.0, Velocidade = 1.00, Tempo = 12.01, Distância = 12
+Cidade 37 -> Cidade 17: Peso acumulado = 2.0, Velocidade = 1.00, Tempo = 6.00, Distância = 6
+Cidade 17 -> Cidade 4: Peso acumulado = 2.0, Velocidade = 1.00, Tempo = 8.00, Distância = 8
+Cidade 4 -> Cidade 18: Peso acumulado = 6.0, Velocidade = 1.00, Tempo = 8.01, Distância = 8
+Cidade 18 -> Cidade 47: Peso acumulado = 6.0, Velocidade = 1.00, Tempo = 9.01, Distância = 9
+Cidade 47 -> Cidade 12: Peso acumulado = 6.0, Velocidade = 1.00, Tempo = 6.01, Distância = 6
+Cidade 12 -> Cidade 46: Peso acumulado = 6.0, Velocidade = 1.00, Tempo = 8.01, Distância = 8
+Cidade 46 -> Cidade 51: Peso acumulado = 6.0, Velocidade = 1.00, Tempo = 3.00, Distância = 3
+Cidade 51 -> Cidade 27: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 8.18, Distância = 8
+Cidade 27 -> Cidade 6: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 10.23, Distância = 10
+Cidade 6 -> Cidade 23: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 12.27, Distância = 12
+Cidade 23 -> Cidade 7: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 7.16, Distância = 7
+Cidade 7 -> Cidade 43: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 13.30, Distância = 13
+Cidade 43 -> Cidade 24: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 13.30, Distância = 13
+Cidade 24 -> Cidade 14: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 11.25, Distância = 11
+Cidade 14 -> Cidade 25: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 7.16, Distância = 7
+Cidade 25 -> Cidade 13: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 14.32, Distância = 14
+Cidade 13 -> Cidade 41: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 10.23, Distância = 10
+Cidade 41 -> Cidade 19: Peso acumulado = 100.0, Velocidade = 0.98, Tempo = 5.11, Distância = 5
+Cidade 19 -> Cidade 40: Peso acumulado = 222.0, Velocidade = 0.95, Tempo = 11.57, Distância = 11
+Cidade 40 -> Cidade 42: Peso acumulado = 222.0, Velocidade = 0.95, Tempo = 17.89, Distância = 17
+Cidade 42 -> Cidade 15: Peso acumulado = 222.0, Velocidade = 0.95, Tempo = 17.89, Distância = 17
+Cidade 15 -> Cidade 33: Peso acumulado = 222.0, Velocidade = 0.95, Tempo = 12.63, Distância = 12
+Cidade 33 -> Cidade 39: Peso acumulado = 222.0, Velocidade = 0.95, Tempo = 14.73, Distância = 14
+Cidade 39 -> Cidade 10: Peso acumulado = 222.0, Velocidade = 0.95, Tempo = 10.52, Distância = 10
+Cidade 10 -> Cidade 30: Peso acumulado = 222.0, Velocidade = 0.95, Tempo = 10.52, Distância = 10
+Cidade 30 -> Cidade 34: Peso acumulado = 222.0, Velocidade = 0.95, Tempo = 7.37, Distância = 7
+Cidade 34 -> Cidade 9: Peso acumulado = 222.0, Velocidade = 0.95, Tempo = 9.47, Distância = 9
+Cidade 9 -> Cidade 50: Peso acumulado = 222.0, Velocidade = 0.95, Tempo = 6.31, Distância = 6
+Cidade 50 -> Cidade 16: Peso acumulado = 269.0, Velocidade = 0.94, Tempo = 6.38, Distância = 6
+Cidade 16 -> Cidade 2: Peso acumulado = 269.0, Velocidade = 0.94, Tempo = 9.58, Distância = 9
+Cidade 2 -> Cidade 29: Peso acumulado = 270.0, Velocidade = 0.94, Tempo = 10.64, Distância = 10
+Cidade 29 -> Cidade 36: Peso acumulado = 270.0, Velocidade = 0.94, Tempo = 23.41, Distância = 22
+Cidade 36 -> Cidade 3: Peso acumulado = 270.0, Velocidade = 0.94, Tempo = 13.83, Distância = 13
+Cidade 3 -> Cidade 28: Peso acumulado = 272.0, Velocidade = 0.94, Tempo = 10.65, Distância = 10
+Cidade 28 -> Cidade 31: Peso acumulado = 272.0, Velocidade = 0.94, Tempo = 7.45, Distância = 7
+Cidade 31 -> Cidade 26: Peso acumulado = 272.0, Velocidade = 0.94, Tempo = 11.71, Distância = 11
+Cidade 26 -> Cidade 8: Peso acumulado = 272.0, Velocidade = 0.94, Tempo = 8.52, Distância = 8
+Cidade 8 -> Cidade 48: Peso acumulado = 272.0, Velocidade = 0.94, Tempo = 10.65, Distância = 10
+Cidade 48 -> Cidade 44: Peso acumulado = 1492.0, Velocidade = 0.67, Tempo = 61.50, Distância = 41
+Cidade 44 -> Cidade 45: Peso acumulado = 1615.0, Velocidade = 0.64, Tempo = 17.21, Distância = 11
+Cidade 45 -> Cidade 49: Peso acumulado = 1971.0, Velocidade = 0.56, Tempo = 37.52, Distância = 21
+Cidade 49 -> Cidade 21: Peso acumulado = 2276.0, Velocidade = 0.49, Tempo = 40.68, Distância = 20
+Cidade 21 -> Cidade 35: Peso acumulado = 2764.0, Velocidade = 0.38, Tempo = 54.89, Distância = 21
+Cidade 35 -> Cidade 20: Peso acumulado = 3414.0, Velocidade = 0.24, Tempo = 33.70, Distância = 8
+Cidade 20 -> Cidade 22: Peso acumulado = 3658.0, Velocidade = 0.18, Tempo = 87.49, Distância = 16
+Cidade 22 -> Cidade 1: Peso acumulado = 4024.0, Velocidade = 0.10, Tempo = 79.12, Distância = 8
+Cidade 1 -> Cidade 1: Peso acumulado = 4024.0, Velocidade = 0.10, Tempo = 0.00, Distância = 0
+Tempo total de viagem: 845.40
+Custo de aluguel: 3753.56
+Lucro total: 3370.44
+Distância total percorrida: 564 unidades
+KPThen2TSPsSolver Finalizado.
+
+===== KP -> 2 TSPs =====
+
+Rota Final:
+Cidade 1 -> Cidade 32
+Cidade 32 -> Cidade 11
+Cidade 11 -> Cidade 38
+Cidade 38 -> Cidade 5
+Cidade 5 -> Cidade 37
+Cidade 37 -> Cidade 17
+Cidade 17 -> Cidade 4
+Cidade 4 -> Cidade 18
+Cidade 18 -> Cidade 47
+Cidade 47 -> Cidade 12
+Cidade 12 -> Cidade 46
+Cidade 46 -> Cidade 51
+Cidade 51 -> Cidade 27
+Cidade 27 -> Cidade 6
+Cidade 6 -> Cidade 23
+Cidade 23 -> Cidade 7
+Cidade 7 -> Cidade 43
+Cidade 43 -> Cidade 24
+Cidade 24 -> Cidade 14
+Cidade 14 -> Cidade 25
+Cidade 25 -> Cidade 13
+Cidade 13 -> Cidade 41
+Cidade 41 -> Cidade 19
+Cidade 19 -> Cidade 40
+Cidade 40 -> Cidade 42
+Cidade 42 -> Cidade 15
+Cidade 15 -> Cidade 33
+Cidade 33 -> Cidade 39
+Cidade 39 -> Cidade 10
+Cidade 10 -> Cidade 30
+Cidade 30 -> Cidade 34
+Cidade 34 -> Cidade 9
+Cidade 9 -> Cidade 50
+Cidade 50 -> Cidade 16
+Cidade 16 -> Cidade 2
+Cidade 2 -> Cidade 29
+Cidade 29 -> Cidade 36
+Cidade 36 -> Cidade 3
+Cidade 3 -> Cidade 28
+Cidade 28 -> Cidade 31
+Cidade 31 -> Cidade 26
+Cidade 26 -> Cidade 8
+Cidade 8 -> Cidade 48
+Cidade 48 -> Cidade 44
+Cidade 44 -> Cidade 45
+Cidade 45 -> Cidade 49
+Cidade 49 -> Cidade 21
+Cidade 21 -> Cidade 35
+Cidade 35 -> Cidade 20
+Cidade 20 -> Cidade 22
+Cidade 22 -> Cidade 1
+Cidade 1 -> Cidade 1
+
+Itens Selecionados:
+Item 1: Lucro = 101.0, Peso = 1.0, Cidade = 2.0
+Item 2: Lucro = 202.0, Peso = 2.0, Cidade = 3.0
+Item 3: Lucro = 404.0, Peso = 4.0, Cidade = 4.0
+Item 4: Lucro = 202.0, Peso = 2.0, Cidade = 5.0
+Item 18: Lucro = 222.0, Peso = 122.0, Cidade = 19.0
+Item 19: Lucro = 444.0, Peso = 244.0, Cidade = 20.0
+Item 20: Lucro = 888.0, Peso = 488.0, Cidade = 21.0
+Item 21: Lucro = 666.0, Peso = 366.0, Cidade = 22.0
+Item 34: Lucro = 850.0, Peso = 650.0, Cidade = 35.0
+Item 43: Lucro = 223.0, Peso = 123.0, Cidade = 44.0
+Item 44: Lucro = 456.0, Peso = 356.0, Cidade = 45.0
+Item 47: Lucro = 1620.0, Peso = 1220.0, Cidade = 48.0
+Item 48: Lucro = 405.0, Peso = 305.0, Cidade = 49.0
+Item 49: Lucro = 147.0, Peso = 47.0, Cidade = 50.0
+Item 50: Lucro = 294.0, Peso = 94.0, Cidade = 51.0
+
+Lucro Total: 3370.44
+Distância Total Percorrida: 564 unidades
