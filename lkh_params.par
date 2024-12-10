@@ -1,0 +1,2 @@
+PROBLEM_FILE = tsp_data.tsp
+RUNS = 1

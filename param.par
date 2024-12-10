@@ -1,0 +1,3 @@
+PROBLEM_FILE = tsp_data.tsp
+RUNS = 1
+TOUR_FILE  = rota_otimizada.txt
